@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grand Orchid Restaurant</title>
+    <link rel="stylesheet" href="Home.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>EURASIA PALACE</h1>
+            <p>Exquisite Dining Experience</p>
+        </div>
+    </header>
+    <nav>
+        <div class="container">
+            <a href="#">Home</a>
+            <a href="#menu">Menu</a>
+            <a href="#hours">Hours</a>
+            <a href="#location">Location</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+    <SECTION CLASS="hero"></SECTION>
+    <div class="container">
+        <section id="menu" class="menu">
+            <h2>Our Menu</h2>
+            <div class="menu-item">
+                <h4>Grilled Salmon</h4>
+                <span>$25.00</span>
+            </div>
+            <div class="menu-item">
+                <h4>tofu spagethi</h4>
+                <span>$30.00</span>
+            </div>
+            <div class="menu-item">
+                <h4>Caesar Salad</h4>
+                <span>$12.00</span>
+            </div>
+            <div class="menu-item">
+                <h4>French Onion Soup</h4>
+                <span>$8.00</span>
+            </div>
+            <div class="menu-item">
+                <h4>Chocolate Lava Cake</h4>
+                <span>$10.00</span>
+            </div>
+        </section>
+
+        <section id="hours" class="hours">
+            <h2>Opening Hours</h2>
+            <p>Monday - Friday: 11:00 AM - 10:00 PM</p>
+            <p>Saturday - Sunday: 10:00 AM - 11:00 PM</p>
+        </section>
+
+        <section id="location" class="location">
+            <h2>Our Location</h2>
+            <p>mahatma jyotiba phule chowk,dhampur,(bijnor)</p>
+            <div>
+                <img src="map.png" alt="Restaurant Location" style="width:100%; height:auto;">
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Contact Us</h2>
+            <form id="contactForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <br>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <br>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </div>
+    <footer>
+        <p>EURASIA PALACE &copy; 2024. All Rights Reserved.</p>
+        <p>Follow us on social media!</p>
+    </footer>
+    <script src="Home.js"></script>
+</body>
+</html>
